@@ -1,0 +1,8 @@
+[build]
+  functions = "netlify-functions"
+  publish = "public"
+
+[[redirects]]
+  from = "/comments"
+  to = "/.netlify/functions/comments"
+  status = 200

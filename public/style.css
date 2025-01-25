@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#comments-container {
+  margin-top: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+}
+
+.comment h3 {
+  margin: 0;
+  font-size: 1.2em;
+}
+
+.comment img {
+  max-width: 100%;
+  margin-top: 50px;
+  display: block;
+}
