@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comment Section</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Comment Section</h1>
+
+  <!-- Comment form -->
+  <form id="comment-form" enctype="multipart/form-data">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required>
+
+    <label for="message">Comment:</label>
+    <textarea id="message" required></textarea>
+
+    <label for="image">Upload Image:</label>
+    <input type="file" id="image" accept="image/*">
+
+    <button type="submit">Post Comment</button>
+  </form>
+
+  <!-- Display Comments -->
+  <div id="comments-container"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
