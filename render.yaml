@@ -1,0 +1,12 @@
+# For a Node.js backend + static frontend combined
+services:
+  - type: web
+    name: my-fullstack-app
+    env: node
+    buildCommand: npm install
+    startCommand: node server.js
+    staticPublishPath: "./public"  # Path to your frontend files
+    envVars:
+      - key: NODE_ENV
+        value: production
+      # Add other env vars (e.g., DATABASE_URL) here
